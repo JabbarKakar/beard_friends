@@ -5,7 +5,6 @@ import 'package:beard_friends/Views/Signup%20View/Providers/signup_terms_check_b
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:get/get_core/src/get_main.dart';
 import 'package:provider/provider.dart';
 
 import '../../App Constants/App Colors/app_colors.dart';
@@ -181,7 +180,7 @@ class _SignupViewState extends State<SignupView> {
         return Dialog(
           backgroundColor: AppColors.dialogBoxColor,
           alignment: Alignment.center,
-          insetPadding: EdgeInsets.zero,
+          insetPadding: EdgeInsets.symmetric(horizontal: 15.w),
           clipBehavior: Clip.antiAliasWithSaveLayer,
           child: Padding(
             padding: EdgeInsets.symmetric(horizontal: 8.w, vertical: 25.h),
