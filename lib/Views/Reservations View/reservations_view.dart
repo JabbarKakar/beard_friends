@@ -72,7 +72,7 @@ class _ReservationsViewState extends State<ReservationsView> {
                           height: 30.h,
                           width: 30.w,
                           decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(100),
+                              shape: BoxShape.circle,
                               color: AppColors.grayText2),
                           child: Icon(
                             Icons.cancel,
@@ -83,7 +83,7 @@ class _ReservationsViewState extends State<ReservationsView> {
                           height: 30.h,
                           width: 30.w,
                           decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(100),
+                              shape: BoxShape.circle,
                               color: AppColors.buttonColor),
                           child: Icon(
                             Icons.check,
